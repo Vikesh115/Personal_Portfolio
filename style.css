@@ -148,7 +148,7 @@ html {
   padding: 20px;
 }
 .row {
-  display: flex;
+  display:grid;
   justify-content: space-around;
   flex-wrap: wrap;
   box-sizing: border-box;
@@ -163,22 +163,22 @@ html {
   margin: 10px;
   align-items: center;
   text-align: justify;
-  padding: 10px;
-  border-radius: 15px;
-  background: linear-gradient(to top, rgb(2, 2, 16) 50%, white 50%);
+  padding: 18px;
+  border-radius: 18px;
+  background: linear-gradient(to top, rgb(234, 145, 237) 50%, rgb(0, 0, 0) 50%);
   background-size: 100% 200%;
   transform: all 0.8s;
 }
 .box:hover {
   background-position: left bottom;
-  color: white;
+  color: white(18, 222, 222);
   border: none;
-  box-shadow: 0 0 40px rgb(126, 12, 240);
+  box-shadow: 0 0 40px rgb(198, 162, 234);
 }
 .box img {
   width: 80px;
   height: 80px;
-  background-color: white;
+  background-color: white(42, 7, 7);
   padding: 10px;
 }
 
